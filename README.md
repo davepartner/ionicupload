@@ -1,6 +1,4 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
-
-THis is a project built with ionic 3, firebase, angular 4 and typescript. It contains full user registration, login, forgot password, image upload and firebase CRUD. This app runs for android and iOS. 
+This is a project built with ionic 3, firebase, angular 4 and typescript. It contains full user registration, login, forgot password, image upload and firebase CRUD. This app runs for android and iOS. 
 Show me love if you feel what a brother go through to bring this app through, star this project and share it on your social media.
 
 The full video tutorial on how this app was made is available on [Youtube](https://www.youtube.com/playlist?playnext=1&list=PLnBvgoOXZNCNmRckb7zlVciBQfSTDWiLV)
