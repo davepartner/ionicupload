@@ -1,26 +1,44 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is a project built with ionic 3, firebase, angular 4 and typescript. It contains full user registration, login, forgot password, image upload and firebase CRUD. This app runs for android and iOS. 
+Show me love if you feel what a brother go through to bring this app through, star this project and share it on your social media.
 
-## How to use this template
+The full video tutorial on how this app was made is available on [Youtube](https://www.youtube.com/playlist?playnext=1&list=PLnBvgoOXZNCNmRckb7zlVciBQfSTDWiLV)
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## How to setup this app
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
 
-### With the Ionic CLI:
+### Install Ionic:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
+```
 $ sudo npm install -g ionic cordova
-$ ionic start mySideMenu sidemenu
 ```
 
-Then, to run it, cd into `mySideMenu` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+### Install this app
+```
+git clone https://github.com/daveozoalor/ionicupload.git 
 ```
 
-Substitute ios for android if not on a Mac.
+### Navigate into the folder
+```
+cd ionicupload
+```
 
+### Run npm install
+```
+npm install 
+```
+### Your app is complete now, run the app
+```
+ionic serve
+```
+
+### You need to change the firebase login details
+Go to firebase.google.com, get your own authentication details, then replace it with the one in
+```
+src/app/app.module.ts
+```
+
+## How to contact me
+I can join your team locally or remotely
+* Chat me up [Facebook](https://fb.com/daveozoalor) 
+* Follow me on [Instagram](https://instagram.com) 
+* [Twitter](https://twitter.com)
