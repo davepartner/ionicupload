@@ -27,10 +27,25 @@ export class UsersserviceProvider {
   }
 
 
-  loginUser(email: string, password: string): any {
+  loginUserService(email: string, password: string): any {
     return this.fireAuth.signInWithEmailAndPassword(email, password);
   }
 
+
+  signupUserService(account: {}){
+
+    
+        return this.fireAuth.createUserWithEmailAndPassword(account['email'], account['password']).then((newUser) => {
+          //sign in the user
+          this.fireAuth.signInWithEmailAndPassword(account['email'], account['password']).then((authenticatedUser) => {
+            //successful login, create user profile
+          this.userProfile.child(authenticatedUser.uid).set(
+            account
+          );
+          });
+        });
+
+  }
 
 
 
